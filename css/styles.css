@@ -28,3 +28,49 @@ body{
     background: url(../imagens/logo.png) no-repeat center;
     text-indent: -3000px;
 }
+
+/*Navigation Bar*/
+
+ul{
+   padding: 0;
+   margin: 0;
+   list-style: none; 
+}
+
+#header ul{
+    background: #f58383;
+    float: left;
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png)no-repeat left center;
+    
+}
+
+#header ul .first a{
+    background: none;
+}
+
+#header ul a:hover{
+    color: #944444;
+}
+
+body.home #navigation a#home,
+body.brasil #navigation a#brasil
+body.international #navigation a#international
+{
+    color: #fff;
+    background: #f56868d3;
+    cursor: text;
+
+}
